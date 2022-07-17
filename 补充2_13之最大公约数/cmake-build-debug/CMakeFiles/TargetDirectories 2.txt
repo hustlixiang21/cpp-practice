@@ -1,0 +1,3 @@
+/Users/lixiang/Desktop/C++/补充2_13之最大公约数/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lixiang/Desktop/C++/补充2_13之最大公约数/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lixiang/Desktop/C++/补充2_13之最大公约数/cmake-build-debug/CMakeFiles/2_13.dir

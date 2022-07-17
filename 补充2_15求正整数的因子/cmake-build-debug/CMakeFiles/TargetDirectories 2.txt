@@ -1,0 +1,3 @@
+/Users/lixiang/Desktop/C++/补充2_15求正整数的因子/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lixiang/Desktop/C++/补充2_15求正整数的因子/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lixiang/Desktop/C++/补充2_15求正整数的因子/cmake-build-debug/CMakeFiles/2_15.dir
