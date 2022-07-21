@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lixiang/Desktop/简单程序设计/高阶计算器.cpp
+# Install script for directory: /Users/lixiang/Desktop/cpp-practice/高阶计算器.cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lixiang/Desktop/简单程序设计/高阶计算器.cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lixiang/Desktop/cpp-practice/高阶计算器.cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

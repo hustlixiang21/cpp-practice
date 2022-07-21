@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "_cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-_cpp-Debug-1fba814c5c1195a4d0a3.json",
+					"jsonFile" : "target-_cpp-Debug-8cc168e1f4d1572b5d0c.json",
 					"name" : "_cpp",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/lixiang/Desktop/简单程序设计/高阶计算器.cpp/cmake-build-debug",
-		"source" : "/Users/lixiang/Desktop/简单程序设计/高阶计算器.cpp"
+		"build" : "/Users/lixiang/Desktop/cpp-practice/高阶计算器.cpp/cmake-build-debug",
+		"source" : "/Users/lixiang/Desktop/cpp-practice/高阶计算器.cpp"
 	},
 	"version" : 
 	{
