@@ -4,12 +4,12 @@ using namespace std;
 
 class Point{                //Point类定义
 public:
-    Point(int set_x,int set_y):x(set_x),y(set_y){}   //构造函数
+    Point(int set_x,int set_y):x(set_x),y(set_y){}   //构造函数 初始化列表
     Point(Point &p){                                 //复制构造函数
         x = p.x;
         y = p.y; 
         }
-    ~Point(){}
+    ~Point(){cout << "hello!" << endl;}
     int get_x(){return x;}
     int get_y(){return y;}
     friend double distance(Point p1, Point p2);
