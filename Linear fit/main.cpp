@@ -29,17 +29,17 @@ float lineFit(const Point points[], int nPoint)
 
 int main()
 {
-    Point p[10] = { Point(6, 10),
-                    Point(14, 20),
-                    Point(26, 30),
-                    Point(33, 40),
-                    Point(46, 50),
-                    Point(54, 60),
-                    Point(67, 70),
-                    Point(75, 80),
-                    Point(84, 90),
-                    Point(100, 100) };
-    float r=lineFit(p,10);
+    Point p[10] = {Point(6, 10),
+                   Point(14, 20),
+                   Point(26, 30),
+                   Point(33, 40),
+                   Point(46, 50),
+                   Point(54, 60),
+                   Point(67, 70),
+                   Point(75, 80),
+                   Point(84, 90),
+                   Point(100, 100)};
+    float r = lineFit(p, 10);
     cout << "Line coeffient r = " << r << endl;
     return 0;
 }
