@@ -1,0 +1,19 @@
+# ninja log v5
+0	1536	1659514785109665023	CMakeFiles/Personal_bank_management_update_1.dir/main.cpp.o	791c9afaa0062d03
+1	1539	1659514785109657708	CMakeFiles/Personal_bank_management_update_1.dir/date.cpp.o	66611c703aafa809
+1	1539	1659514785109726578	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+5	936	1659514892296756160	CMakeFiles/Personal_bank_management_update_1.dir/main.cpp.o	791c9afaa0062d03
+5	944	1659514892306964116	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+3	750	1659518456139668939	CMakeFiles/Personal_bank_management_update_1.dir/main.cpp.o	791c9afaa0062d03
+4	786	1659518456175874547	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+2	887	1659518624266987265	CMakeFiles/Personal_bank_management_update_1.dir/main.cpp.o	791c9afaa0062d03
+4	913	1659518624292994871	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+913	992	1659518624374128399	Personal_bank_management_update_1	dbeb540a1829fc11
+3	1344	1659518974040109833	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+1344	1446	1659518974148657998	Personal_bank_management_update_1	dbeb540a1829fc11
+3	796	1659519021571161780	CMakeFiles/Personal_bank_management_update_1.dir/date.cpp.o	66611c703aafa809
+796	860	1659519021632294412	Personal_bank_management_update_1	dbeb540a1829fc11
+3	1092	1659519174660481306	CMakeFiles/Personal_bank_management_update_1.dir/date.cpp.o	66611c703aafa809
+3	1139	1659519174710787887	CMakeFiles/Personal_bank_management_update_1.dir/main.cpp.o	791c9afaa0062d03
+3	1164	1659519174738818535	CMakeFiles/Personal_bank_management_update_1.dir/account.cpp.o	5ee2480893dd16a7
+1165	1252	1659519174831186598	Personal_bank_management_update_1	dbeb540a1829fc11
