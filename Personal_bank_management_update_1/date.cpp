@@ -9,7 +9,7 @@ using namespace std;
 
 namespace
 {   //这种直接把总和写出来的方法简直巧妙
-    const int DAYS_BEFORE_MONTH[] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};
+    const int DAYS_BEFORE_MONTH[] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334,365};
 }
 
 Date::Date(int year, int month, int day) : year(year), month(month), day(day)

@@ -31,7 +31,7 @@ void Account::error(const string &msg) const
 
 void Account::show() const
 {
-    cout << id << "\tBalance: " << endl;
+    cout << "\t#" << id << "\tBalance: " << balance << endl;
 }
 
 //SavingsAccount类的实现
@@ -61,8 +61,47 @@ void SavingsAccount::deposit(const Date &date, double amount,const string &desc)
 void SavingsAccount::settle(const Date &date)
 {
     //计算年利息
-    double interest = acc.getSum(date)/ date.distance(Date(date.getYear()-1,1,1));  //日累计总和除以当年的长度
+    double interest = acc.getSum(date) * rate / date.distance(Date(date.getYear()-1,1,1));  //日累计总和除以当年的长度
     if(interest!=0)
         record(date,interest,"interest");
     acc.reset(date,getBalance()); //千万不能忘记重置accumulator
+}
+
+//CreditAccount类的实现
+
+CreditAccount::CreditAccount(const Date &date, const string &id, double credit, double rate, double fee) : Account(date,id),credit(credit),rate(rate),fee(fee),acc(date,0) {}
+
+void CreditAccount::deposit(const Date &date, double amount, const string &desc)
+{
+    record(date,amount,desc);
+    acc.change(date,getBalance());
+}
+
+void CreditAccount::withdraw(const Date &date, double amount,const string &desc)
+{
+    //先判断能不能取的出来
+    if(amount - getBalance() > credit)
+    {
+        error("not enough credit");
+    }
+    else
+    {
+        record(date,-amount,desc);
+        acc.change(date,getBalance());
+    }
+}
+
+void CreditAccount::settle(const Date &date)
+{
+    double interest = acc.getSum(date) * rate;
+    if(interest!=0)
+        record(date,interest,"interest");
+    if(date.getMonth()==1)
+        record(date,-fee,"annual fee");
+    acc.reset(date,getDebt()); //千万不能忘记重置accumulator
+}
+
+void CreditAccount::show() const {
+    Account::show();
+    cout << "\tAvailable credit:" << getAvailableCredit() << endl;
 }

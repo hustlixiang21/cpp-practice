@@ -15,7 +15,7 @@ public:
     const string &getId() const {return id;}     //id的外部接口
     double getBalance() const {return balance;}  //余额的外部接口
     static double getTotal() {return total;}     //各余额总和total的外部接口
-    void show() const;  //显示账户信息
+    virtual void show() const;  //显示账户信息
 protected:
     Account(const Date &date,const string &id); //构造函数传，引用效率更高
     void record(const Date &date,double amount,const string &desc); //记录每一笔支出或者收入
@@ -39,7 +39,31 @@ private:
 };
 
 class CreditAccount : public Account{
-
+public:
+    CreditAccount(const Date &date, const string &id, double credit, double rate, double fee);
+    double getCredit() const {return credit;}
+    double getRate() const {return rate;}
+    double getFee() const {return fee;}
+    double getAvailableCredit() const {
+        if (getBalance() < 0)
+            return credit + getBalance();
+        else
+            return credit;
+    }
+    void deposit(const Date &date, double amount,const string &desc);   //存钱
+    void withdraw(const Date &date, double amount, const string &desc); //取钱
+    void settle(const Date &date);   //结算利息，每月1日调用该函数
+    void show() const;
+private:
+    Accumulator acc;
+    double credit;
+    double rate;
+    double fee;
+    double getDebt() const
+    {
+        double balance = getBalance();
+        return (balance<0 ? balance : 0);
+    }
 };
 
 #endif //PERSONAL_BANK_MANAGEMENT_UPDATE_1_ACCOUNT_H
