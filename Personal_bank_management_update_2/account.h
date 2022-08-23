@@ -2,8 +2,8 @@
 // Created by lixiang on 2022/8/2.
 //
 
-#ifndef PERSONAL_BANK_MANAGEMENT_UPDATE_1_ACCOUNT_H
-#define PERSONAL_BANK_MANAGEMENT_UPDATE_1_ACCOUNT_H
+#ifndef PERSONAL_BANK_MANAGEMENT_UPDATE_2_ACCOUNT_H
+#define PERSONAL_BANK_MANAGEMENT_UPDATE_2_ACCOUNT_H
 
 #include <iostream>
 #include "accumulator.h"

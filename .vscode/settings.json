@@ -30,6 +30,13 @@
   ],
   "files.associations": {
     "iostream": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "__bit_reference": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "variant": "cpp"
   }
 }
