@@ -37,6 +37,12 @@
     "chrono": "cpp",
     "string": "cpp",
     "string_view": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "__config": "cpp",
+    "functional": "cpp",
+    "vector": "cpp",
+    "__split_buffer": "cpp",
+    "initializer_list": "cpp",
+    "ostream": "cpp"
   }
 }
