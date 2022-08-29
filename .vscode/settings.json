@@ -43,6 +43,8 @@
     "vector": "cpp",
     "__split_buffer": "cpp",
     "initializer_list": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iomanip": "cpp",
+    "ios": "cpp"
   }
 }
