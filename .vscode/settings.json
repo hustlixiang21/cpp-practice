@@ -45,6 +45,8 @@
     "initializer_list": "cpp",
     "ostream": "cpp",
     "iomanip": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "__locale": "cpp",
+    "__string": "cpp"
   }
 }
