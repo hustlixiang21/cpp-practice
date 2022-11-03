@@ -1123,8 +1123,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/lixiang/Desktop/简单程序设计/test/cmake-build-debug",
-		"source" : "/Users/lixiang/Desktop/简单程序设计/test"
+		"build" : "/Users/lixiang/Desktop/cpp-practice/test/cmake-build-debug",
+		"source" : "/Users/lixiang/Desktop/cpp-practice/test"
 	},
 	"version" : 
 	{

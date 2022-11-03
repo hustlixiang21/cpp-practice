@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "test",
+					"name" : "binary_tree",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-f95ce08b7b36d88a6acd.json",
-					"name" : "test",
+					"id" : "binary_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary_tree-Debug-8e003cacccd92cb1d99f.json",
+					"name" : "binary_tree",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/lixiang/Desktop/简单程序设计/test/cmake-build-debug",
-		"source" : "/Users/lixiang/Desktop/简单程序设计/test"
+		"build" : "/Users/lixiang/Desktop/cpp-practice/binary_tree/cmake-build-debug",
+		"source" : "/Users/lixiang/Desktop/cpp-practice/binary_tree"
 	},
 	"version" : 
 	{

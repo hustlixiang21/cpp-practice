@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/lixiang/Desktop/简单程序设计/test/cmake-build-debug"
+			"value" : "/Users/lixiang/Desktop/cpp-practice/binary_tree/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/lixiang/Desktop/简单程序设计/test"
+			"value" : "/Users/lixiang/Desktop/cpp-practice/binary_tree"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "test"
+			"value" : "binary_tree"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1078,7 +1078,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "test_BINARY_DIR",
+			"name" : "binary_tree_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1087,10 +1087,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lixiang/Desktop/简单程序设计/test/cmake-build-debug"
+			"value" : "/Users/lixiang/Desktop/cpp-practice/binary_tree/cmake-build-debug"
 		},
 		{
-			"name" : "test_IS_TOP_LEVEL",
+			"name" : "binary_tree_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1102,7 +1102,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "test_SOURCE_DIR",
+			"name" : "binary_tree_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lixiang/Desktop/简单程序设计/test"
+			"value" : "/Users/lixiang/Desktop/cpp-practice/binary_tree"
 		}
 	],
 	"kind" : "cache",
